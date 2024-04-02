@@ -215,7 +215,7 @@
                 <version>${jacoco-maven-plugin.version}</version>
                 <configuration>
                     <excludes>
-                        <exclude>com/hexagonal/infrastracture/**</exclude>
+                        <exclude>com/hexagonal/infrastructure/**</exclude>
                         <exclude>com/hexagonal/Application.*</exclude>
                     </excludes>
                 </configuration>
