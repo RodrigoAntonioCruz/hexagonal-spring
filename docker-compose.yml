@@ -1,0 +1,31 @@
+version: '3.9'
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    environment:
+      MONGODB_ADVERTISED_HOSTNAME: mongo
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 9d5b613f1fb4
+      MONGO_INITDB_DATABASE: crud
+    ports:
+      - 27017:27017
+    networks:
+      - app-net
+
+  hexagonal:
+    build: .
+    container_name: hexagonal
+    depends_on:
+      - mongo
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://root:9d5b613f1fb4@mongo:27017/crud?authSource=admin&readPreference=primary&appname=spring-app&directConnection=true&ssl=false
+    ports:
+      - 8887:8887
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    driver: bridge
