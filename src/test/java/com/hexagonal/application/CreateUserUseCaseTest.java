@@ -5,6 +5,7 @@ package com.hexagonal.application;
 import com.hexagonal.application.factory.FactoryBase;
 import com.hexagonal.application.repositories.UserRepository;
 import com.hexagonal.application.usecases.impl.CreateUserUseCaseImpl;
+import com.hexagonal.application.utils.Constants;
 import com.hexagonal.domain.User;
 import com.sun.jdi.request.DuplicateRequestException;
 import org.junit.jupiter.api.BeforeEach;

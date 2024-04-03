@@ -3,7 +3,7 @@ package com.hexagonal.infrastructure.adapters.repositories;
 
 import com.hexagonal.application.repositories.UserRepository;
 import com.hexagonal.domain.User;
-import com.hexagonal.infrastructure.adapters.repositories.mapper.UserOutputMapper;
+import com.hexagonal.infrastructure.adapters.repositories.mappers.UserOutputMapper;
 import com.hexagonal.infrastructure.adapters.repositories.utils.Constants;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

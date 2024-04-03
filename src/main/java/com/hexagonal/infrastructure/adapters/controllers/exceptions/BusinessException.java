@@ -1,4 +1,4 @@
-package com.hexagonal.infrastructure.adapters.controllers.exception;
+package com.hexagonal.infrastructure.adapters.controllers.exceptions;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;

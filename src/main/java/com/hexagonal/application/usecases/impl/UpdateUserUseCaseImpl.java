@@ -1,7 +1,7 @@
 package com.hexagonal.application.usecases.impl;
 
 
-import com.hexagonal.application.Constants;
+import com.hexagonal.application.utils.Constants;
 import com.hexagonal.application.repositories.UserRepository;
 import com.hexagonal.application.usecases.UpdateUserUseCase;
 import com.hexagonal.domain.User;
@@ -10,7 +10,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-import static com.hexagonal.application.exception.ExceptionUtil.throwExceptionIf;
+import static com.hexagonal.application.exceptions.ExceptionUtil.throwExceptionIf;
 
 
 @Named

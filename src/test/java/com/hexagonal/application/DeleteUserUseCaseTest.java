@@ -2,11 +2,12 @@ package com.hexagonal.application;
 
 
 
-import com.hexagonal.application.exception.UserNotFoundException;
+import com.hexagonal.application.exceptions.UserNotFoundException;
 import com.hexagonal.application.factory.FactoryBase;
 import com.hexagonal.application.repositories.UserRepository;
 import com.hexagonal.application.usecases.impl.DeleteByIdUserUseCaseImpl;
 import com.hexagonal.application.usecases.impl.FindByIdUserUseCaseImpl;
+import com.hexagonal.application.utils.Constants;
 import com.hexagonal.domain.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

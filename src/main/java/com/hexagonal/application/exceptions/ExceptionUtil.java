@@ -1,4 +1,4 @@
-package com.hexagonal.application.exception;
+package com.hexagonal.application.exceptions;
 
 public class ExceptionUtil {
 

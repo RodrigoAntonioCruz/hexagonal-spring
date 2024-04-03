@@ -1,4 +1,4 @@
-package com.hexagonal.application;
+package com.hexagonal.application.utils;
 
 
 public class Constants {

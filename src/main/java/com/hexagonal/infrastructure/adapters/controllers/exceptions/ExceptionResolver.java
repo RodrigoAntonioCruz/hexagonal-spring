@@ -1,4 +1,4 @@
-package com.hexagonal.infrastructure.adapters.controllers.exception;
+package com.hexagonal.infrastructure.adapters.controllers.exceptions;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
 

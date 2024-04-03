@@ -1,7 +1,7 @@
 package com.hexagonal.application.usecases.impl;
 
 
-import com.hexagonal.application.exception.UserNotFoundException;
+import com.hexagonal.application.exceptions.UserNotFoundException;
 import com.hexagonal.application.repositories.UserRepository;
 import com.hexagonal.application.usecases.FindByIdUserUseCase;
 import com.hexagonal.domain.User;

@@ -1,4 +1,4 @@
-package com.hexagonal.infrastructure.adapters.repositories.entity;
+package com.hexagonal.infrastructure.adapters.repositories.entities;
 
 
 import lombok.Builder;

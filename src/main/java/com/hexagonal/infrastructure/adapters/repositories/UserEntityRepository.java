@@ -1,7 +1,7 @@
 package com.hexagonal.infrastructure.adapters.repositories;
 
 
-import com.hexagonal.infrastructure.adapters.repositories.entity.UserEntity;
+import com.hexagonal.infrastructure.adapters.repositories.entities.UserEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

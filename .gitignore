@@ -1,8 +1,10 @@
-HELP.md
 target/
+logs/
+settings.xml_
+
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!**/src/main/**
+!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -12,6 +14,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.m2
 
 ### IntelliJ IDEA ###
 .idea
@@ -26,5 +29,204 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+Last login: Fri Oct 27 03:21:14 on ttys000
+➜  ~ cd git/rd/products/pim-integration
+➜  pim-integration git:(develop) ✗ ll
+total 232
+-rw-r--r--@  1 richard  staff   1.1K Oct 19 20:26 README.md
+-rw-r--r--@  1 richard  staff   579B Oct 19 20:26 checkstyle.xml
+-rw-r--r--@  1 richard  staff    42B Oct 19 20:26 lombok.config
+-rw-r--r--@  1 richard  staff   205B Sep 15 10:49 pim-integration.iml
+-rw-r--r--@  1 richard  staff   116B Oct 19 20:26 pitest-run.bat
+-rw-r--r--@  1 richard  staff   101B Oct 19 20:26 pitest-run.sh
+-rw-r--r--@  1 richard  staff    21K Oct 27 04:40 pom.xml
+drwxr-xr-x@  5 richard  staff   160B Oct 20 18:32 src
+-rw-r--r--   1 richard  staff    64K Oct 27 06:07 swagger_definition.json
+drwxr-xr-x@ 11 richard  staff   352B Oct 26 21:27 target
+➜  pim-integration git:(develop) ✗ ll -a
+total 264
+drwxr-xr-x@ 17 richard  staff   544B Oct 27 06:28 .
+drwxr-xr-x@ 25 richard  staff   800B Oct 25 10:53 ..
+-rw-r--r--@  1 richard  staff   6.0K Oct 27 06:29 .DS_Store
+drwxr-xr-x@ 15 richard  staff   480B Oct 27 06:08 .git
+-rw-r--r--@  1 richard  staff   1.2K Oct 27 06:28 .gitignore
+-rw-r--r--@  1 richard  staff   279B Oct 19 20:26 .gitlab-ci.yml
+drwxr-xr-x@ 13 richard  staff   416B Oct 27 06:06 .idea
+-rw-r--r--@  1 richard  staff   1.1K Oct 19 20:26 README.md
+-rw-r--r--@  1 richard  staff   579B Oct 19 20:26 checkstyle.xml
+-rw-r--r--@  1 richard  staff    42B Oct 19 20:26 lombok.config
+-rw-r--r--@  1 richard  staff   205B Sep 15 10:49 pim-integration.iml
+-rw-r--r--@  1 richard  staff   116B Oct 19 20:26 pitest-run.bat
+-rw-r--r--@  1 richard  staff   101B Oct 19 20:26 pitest-run.sh
+-rw-r--r--@  1 richard  staff    21K Oct 27 04:40 pom.xml
+drwxr-xr-x@  5 richard  staff   160B Oct 20 18:32 src
+-rw-r--r--   1 richard  staff    64K Oct 27 06:07 swagger_definition.json
+drwxr-xr-x@ 11 richard  staff   352B Oct 26 21:27 target
+➜  pim-integration git:(develop) ✗ rm -rf .DS_Store
+➜  pim-integration git:(develop) ✗ git add .gitignore
+➜  pim-integration git:(develop) ✗ git commit -m "DEVELOP atualizando .gitignore"
+[develop cacc6e2] DEVELOP atualizando .gitignore
+ Committer: Ricardo Viana <richard@Ricardos-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 76 insertions(+), 25 deletions(-)
+➜  pim-integration git:(develop) ✗ ll
+total 232
+-rw-r--r--@  1 richard  staff   1.1K Oct 19 20:26 README.md
+-rw-r--r--@  1 richard  staff   579B Oct 19 20:26 checkstyle.xml
+-rw-r--r--@  1 richard  staff    42B Oct 19 20:26 lombok.config
+-rw-r--r--@  1 richard  staff   205B Sep 15 10:49 pim-integration.iml
+-rw-r--r--@  1 richard  staff   116B Oct 19 20:26 pitest-run.bat
+-rw-r--r--@  1 richard  staff   101B Oct 19 20:26 pitest-run.sh
+-rw-r--r--@  1 richard  staff    21K Oct 27 04:40 pom.xml
+drwxr-xr-x@  5 richard  staff   160B Oct 20 18:32 src
+-rw-r--r--   1 richard  staff    64K Oct 27 06:07 swagger_definition.json
+drwxr-xr-x@ 11 richard  staff   352B Oct 26 21:27 target
+➜  pim-integration git:(develop) ✗ ll -a
+total 248
+drwxr-xr-x@ 16 richard  staff   512B Oct 27 06:30 .
+drwxr-xr-x@ 25 richard  staff   800B Oct 25 10:53 ..
+drwxr-xr-x@ 15 richard  staff   480B Oct 27 06:31 .git
+-rw-r--r--@  1 richard  staff   1.2K Oct 27 06:28 .gitignore
+-rw-r--r--@  1 richard  staff   279B Oct 19 20:26 .gitlab-ci.yml
+drwxr-xr-x@ 13 richard  staff   416B Oct 27 06:06 .idea
+-rw-r--r--@  1 richard  staff   1.1K Oct 19 20:26 README.md
+-rw-r--r--@  1 richard  staff   579B Oct 19 20:26 checkstyle.xml
+-rw-r--r--@  1 richard  staff    42B Oct 19 20:26 lombok.config
+-rw-r--r--@  1 richard  staff   205B Sep 15 10:49 pim-integration.iml
+-rw-r--r--@  1 richard  staff   116B Oct 19 20:26 pitest-run.bat
+-rw-r--r--@  1 richard  staff   101B Oct 19 20:26 pitest-run.sh
+-rw-r--r--@  1 richard  staff    21K Oct 27 04:40 pom.xml
+drwxr-xr-x@  5 richard  staff   160B Oct 20 18:32 src
+-rw-r--r--   1 richard  staff    64K Oct 27 06:07 swagger_definition.json
+drwxr-xr-x@ 11 richard  staff   352B Oct 26 21:27 target
+➜  pim-integration git:(develop) ✗ cd src
+➜  src git:(develop) ✗ ll -a
+total 16
+drwxr-xr-x@  5 richard  staff   160B Oct 20 18:32 .
+drwxr-xr-x@ 16 richard  staff   512B Oct 27 06:30 ..
+-rw-r--r--@  1 richard  staff   6.0K Oct 27 06:29 .DS_Store
+drwxr-xr-x@  5 richard  staff   160B Oct 20 18:32 main
+drwxr-xr-x@  4 richard  staff   128B Oct 19 20:26 test
+➜  src git:(develop) ✗ rm -rf .DS_Store
+➜  src git:(develop) ✗ cd main
+➜  main git:(develop) ✗ ll -a
+total 16
+drwxr-xr-x@ 5 richard  staff   160B Oct 20 18:32 .
+drwxr-xr-x@ 4 richard  staff   128B Oct 27 06:32 ..
+-rw-r--r--@ 1 richard  staff   6.0K Oct 27 06:29 .DS_Store
+drwxr-xr-x@ 4 richard  staff   128B Oct 20 18:32 java
+drwxr-xr-x@ 5 richard  staff   160B Oct 27 04:40 resources
+➜  main git:(develop) ✗ .DS_Store
+zsh: command not found: .DS_Store
+➜  main git:(develop) ✗ rm -rf .DS_Store
+➜  main git:(develop) ✗ ll -a
+total 0
+drwxr-xr-x@ 4 richard  staff   128B Oct 27 06:32 .
+drwxr-xr-x@ 4 richard  staff   128B Oct 27 06:32 ..
+drwxr-xr-x@ 4 richard  staff   128B Oct 20 18:32 java
+drwxr-xr-x@ 5 richard  staff   160B Oct 27 04:40 resources
+➜  main git:(develop) ✗ cd java
+➜  java git:(develop) ✗ ll -a
+total 16
+drwxr-xr-x@ 4 richard  staff   128B Oct 20 18:32 .
+drwxr-xr-x@ 4 richard  staff   128B Oct 27 06:32 ..
+-rw-r--r--@ 1 richard  staff   6.0K Oct 27 06:29 .DS_Store
+drwxr-xr-x@ 4 richard  staff   128B Oct 20 18:32 br
+➜  java git:(develop) ✗ rm -rf .DS_Store
+➜  java git:(develop) ✗ cd br
+➜  br git:(develop) ✗ ll -a
+total 16
+drwxr-xr-x@ 4 richard  staff   128B Oct 20 18:32 .
+drwxr-xr-x@ 3 richard  staff    96B Oct 27 06:32 ..
+-rw-r--r--@ 1 richard  staff   6.0K Oct 27 06:29 .DS_Store
+drwxr-xr-x@ 4 richard  staff   128B Oct 20 18:32 com
+➜  br git:(develop) ✗ rm -rf .DS_Store
+➜  br git:(develop) ✗ cd com
+➜  com git:(develop) ✗ cd ..
+➜  br git:(develop) ✗ cd ..
+➜  java git:(develop) ✗ cd ..
+➜  main git:(develop) ✗ cd ..
+➜  src git:(develop) ✗ cd ..
+➜  pim-integration git:(develop) ✗ find . -name ".DS_Store" -delete
+➜  pim-integration git:(develop) ✗ git status
+On branch develop
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .DS_Store
+	deleted:    src/.DS_Store
+	deleted:    src/main/.DS_Store
+	deleted:    src/main/java/.DS_Store
+	deleted:    src/main/java/br/.DS_Store
+	deleted:    src/main/java/br/com/.DS_Store
+	deleted:    src/main/java/br/com/rd/.DS_Store
+	deleted:    src/main/java/br/com/rd/integration/.DS_Store
+	deleted:    src/main/java/br/com/rd/integration/infrastructure/.DS_Store
+	deleted:    src/main/java/br/com/rd/integration/infrastructure/client/.DS_Store
+	deleted:    src/main/java/br/com/rd/integration/infrastructure/client/productv2/.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  pim-integration git:(develop) ✗ git add .
+➜  pim-integration git:(develop) ✗ git commit -m "DEVELOP removendo find .DS_Store"
+[develop 2a7d43a] DEVELOP removendo find .DS_Store
+ Committer: Ricardo Viana <richard@Ricardos-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 .DS_Store
+ delete mode 100644 src/.DS_Store
+target/
+logs/
+settings.xml_
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.m2
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+-- INSERT --                                                                                                                     1,1           Top
+.DS_Store
+
+application.properties
+application-dev.properties
+application-qa.properties

@@ -3,9 +3,9 @@ package com.hexagonal.infrastructure.configurations.handler;
 
 
 
-import com.hexagonal.application.exception.UserNotFoundException;
-import com.hexagonal.infrastructure.adapters.controllers.exception.BusinessException;
-import com.hexagonal.infrastructure.adapters.controllers.exception.ExceptionResolver;
+import com.hexagonal.application.exceptions.UserNotFoundException;
+import com.hexagonal.infrastructure.adapters.controllers.exceptions.BusinessException;
+import com.hexagonal.infrastructure.adapters.controllers.exceptions.ExceptionResolver;
 import com.hexagonal.infrastructure.adapters.controllers.utils.Constants;
 import com.sun.jdi.request.DuplicateRequestException;
 import jakarta.servlet.http.HttpServletRequest;

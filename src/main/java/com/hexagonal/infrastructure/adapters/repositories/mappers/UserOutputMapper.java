@@ -1,7 +1,7 @@
-package com.hexagonal.infrastructure.adapters.repositories.mapper;
+package com.hexagonal.infrastructure.adapters.repositories.mappers;
 
 import com.hexagonal.domain.User;
-import com.hexagonal.infrastructure.adapters.repositories.entity.UserEntity;
+import com.hexagonal.infrastructure.adapters.repositories.entities.UserEntity;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

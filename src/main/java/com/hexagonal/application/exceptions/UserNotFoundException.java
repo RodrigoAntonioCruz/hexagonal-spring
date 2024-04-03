@@ -1,7 +1,7 @@
-package com.hexagonal.application.exception;
+package com.hexagonal.application.exceptions;
 
 
-import com.hexagonal.application.Constants;
+import com.hexagonal.application.utils.Constants;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException() {

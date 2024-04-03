@@ -1,7 +1,7 @@
-package com.hexagonal.infrastructure.adapters.controllers.dto.request;
+package com.hexagonal.infrastructure.adapters.controllers.dtos.request;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.hexagonal.infrastructure.adapters.controllers.dto.UserBaseDTO;
+import com.hexagonal.infrastructure.adapters.controllers.dtos.UserBaseDTO;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.SuperBuilder;

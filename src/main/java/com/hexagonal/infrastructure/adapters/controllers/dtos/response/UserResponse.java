@@ -1,6 +1,6 @@
-package com.hexagonal.infrastructure.adapters.controllers.dto.response;
+package com.hexagonal.infrastructure.adapters.controllers.dtos.response;
 
-import com.hexagonal.infrastructure.adapters.controllers.dto.UserBaseDTO;
+import com.hexagonal.infrastructure.adapters.controllers.dtos.UserBaseDTO;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.SuperBuilder;
